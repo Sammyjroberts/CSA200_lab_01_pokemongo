@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5338FB6E1D90508000979039 /* InputHandler.h in Sources */ = {isa = PBXBuildFile; fileRef = 53FA5BA71D889A4E004975A1 /* InputHandler.h */; };
+		5338FB6F1D90508000979039 /* PokemonList.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 53FA5BA51D889A34004975A1 /* PokemonList.hpp */; };
+		5338FB701D90508000979039 /* Pokemon.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 53FA5BA21D88925C004975A1 /* Pokemon.hpp */; };
+		5338FB711D90508C00979039 /* pokemon_database.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53FA5BA81D889A74004975A1 /* pokemon_database.txt */; };
+		53FA5B9B1D88924B004975A1 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53FA5B9A1D88924B004975A1 /* Main.cpp */; };
+		53FA5BA31D88925C004975A1 /* Pokemon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53FA5BA11D88925C004975A1 /* Pokemon.cpp */; };
+		53FA5BA61D889A34004975A1 /* PokemonList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53FA5BA41D889A34004975A1 /* PokemonList.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53FA5B951D88924B004975A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				5338FB711D90508C00979039 /* pokemon_database.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53FA5B971D88924B004975A1 /* PokemonGo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PokemonGo; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FA5B9A1D88924B004975A1 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		53FA5BA11D88925C004975A1 /* Pokemon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pokemon.cpp; path = ../Pokemon.cpp; sourceTree = "<group>"; };
+		53FA5BA21D88925C004975A1 /* Pokemon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Pokemon.hpp; path = ../Pokemon.hpp; sourceTree = "<group>"; };
+		53FA5BA41D889A34004975A1 /* PokemonList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PokemonList.cpp; path = ../PokemonList.cpp; sourceTree = "<group>"; };
+		53FA5BA51D889A34004975A1 /* PokemonList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PokemonList.hpp; path = ../PokemonList.hpp; sourceTree = "<group>"; };
+		53FA5BA71D889A4E004975A1 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InputHandler.h; path = ../InputHandler.h; sourceTree = "<group>"; };
+		53FA5BA81D889A74004975A1 /* pokemon_database.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon_database.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53FA5B941D88924B004975A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FA5B8E1D88924B004975A1 = {
+			isa = PBXGroup;
+			children = (
+				53FA5B991D88924B004975A1 /* PokemonGo */,
+				53FA5B981D88924B004975A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53FA5B981D88924B004975A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53FA5B971D88924B004975A1 /* PokemonGo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53FA5B991D88924B004975A1 /* PokemonGo */ = {
+			isa = PBXGroup;
+			children = (
+				53FA5BA81D889A74004975A1 /* pokemon_database.txt */,
+				53FA5BA71D889A4E004975A1 /* InputHandler.h */,
+				53FA5BA41D889A34004975A1 /* PokemonList.cpp */,
+				53FA5BA51D889A34004975A1 /* PokemonList.hpp */,
+				53FA5BA11D88925C004975A1 /* Pokemon.cpp */,
+				53FA5BA21D88925C004975A1 /* Pokemon.hpp */,
+				53FA5B9A1D88924B004975A1 /* Main.cpp */,
+			);
+			path = PokemonGo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53FA5B961D88924B004975A1 /* PokemonGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53FA5B9E1D88924B004975A1 /* Build configuration list for PBXNativeTarget "PokemonGo" */;
+			buildPhases = (
+				53FA5B941D88924B004975A1 /* Frameworks */,
+				53FA5B931D88924B004975A1 /* Sources */,
+				53FA5B951D88924B004975A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonGo;
+			productName = PokemonGo;
+			productReference = 53FA5B971D88924B004975A1 /* PokemonGo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53FA5B8F1D88924B004975A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dean Roberts";
+				TargetAttributes = {
+					53FA5B961D88924B004975A1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 53FA5B921D88924B004975A1 /* Build configuration list for PBXProject "PokemonGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53FA5B8E1D88924B004975A1;
+			productRefGroup = 53FA5B981D88924B004975A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53FA5B961D88924B004975A1 /* PokemonGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53FA5B931D88924B004975A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5338FB6E1D90508000979039 /* InputHandler.h in Sources */,
+				5338FB6F1D90508000979039 /* PokemonList.hpp in Sources */,
+				5338FB701D90508000979039 /* Pokemon.hpp in Sources */,
+				53FA5BA61D889A34004975A1 /* PokemonList.cpp in Sources */,
+				53FA5B9B1D88924B004975A1 /* Main.cpp in Sources */,
+				53FA5BA31D88925C004975A1 /* Pokemon.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53FA5B9C1D88924B004975A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53FA5B9D1D88924B004975A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53FA5B9F1D88924B004975A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53FA5BA01D88924B004975A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53FA5B921D88924B004975A1 /* Build configuration list for PBXProject "PokemonGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FA5B9C1D88924B004975A1 /* Debug */,
+				53FA5B9D1D88924B004975A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53FA5B9E1D88924B004975A1 /* Build configuration list for PBXNativeTarget "PokemonGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FA5B9F1D88924B004975A1 /* Debug */,
+				53FA5BA01D88924B004975A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53FA5B8F1D88924B004975A1 /* Project object */;
+}
